@@ -50,7 +50,7 @@ export default function Login() {
       maxAge: 30 * 24 * 60 * 60,
       path: "/",
       sameSite: "lax",
-      domain: "deneme-rho-silk",
+      domain: "deneme-rho-silk.vercel.app",
     });
     setCookie("deneme", "deneme");
   }, []);
