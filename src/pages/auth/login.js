@@ -52,6 +52,7 @@ export default function Login() {
       sameSite: "lax",
       domain: "deneme-rho-silk",
     });
+    setCookie("deneme", "deneme");
   }, []);
 
   const onSubmit = ({ email, password }) => {
