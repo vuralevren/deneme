@@ -50,7 +50,7 @@ export default function Login() {
       maxAge: 30 * 24 * 60 * 60,
       path: "/",
       sameSite: "lax",
-      domain: "localhost",
+      domain: "deneme-rho-silk",
     });
   }, []);
 
